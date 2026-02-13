@@ -7,6 +7,6 @@ lista2=[]
 for c in range (1,6):
     lista2.append(random.choice(lista1))
 tupla=tuple(lista2)
-print('Os valores sorteados foram: ' ,*tupla)
+print('Os valores sorteados foram: ' ,*tupla) #o * serve pra tirar os parenteses dps do print
 print('O maior valor foi: ',max(tupla))
 print('O menor valor foi: ',min(tupla))
