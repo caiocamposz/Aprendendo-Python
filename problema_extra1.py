@@ -1,5 +1,6 @@
 Determine, para um número inteiro positivo n, a página, a letra (de A a Z) e a posição correspondente em uma sequência em que cada letra aparece um número de vezes igual à sua ordem no alfabeto (por exemplo, A suporta 1 ocorrência, D suporta 4 ocorrências).
 Solucao que pensei:
+
 num=int(input('Digite um numero inteiro positivo: '))
 while num<1:
     num=int(input('Tente novamente. Digite um numero inteiro valido ( >0) : '))
