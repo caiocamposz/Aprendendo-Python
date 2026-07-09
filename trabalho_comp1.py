@@ -1,3 +1,6 @@
+nome=str(input("Qual o nome da sua empresa? "))
+print('====Analisando o estoque====')
+resposta='SIM'
 quantidade_total=0
 valor_total=0
 contador2=1
